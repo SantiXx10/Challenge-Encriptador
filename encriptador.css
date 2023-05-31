@@ -1,0 +1,207 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100%;
+    background-image: linear-gradient(to right, white, blue);
+    
+}
+
+header{
+    width: 100%;
+    height: 70%;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textcontainer{
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    padding-left:10px;
+    width: 1080px;
+    height: 600px;
+}
+
+.catex{
+    width: 70%;
+    height:80%;
+    border: none;
+    box-shadow: 10px 10px 30px 2px #000000;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.catex::placeholder{
+    color: blue;
+}
+
+.warn{
+    position: absolute;
+    top:650px;
+    left: 260px;
+    display: flex;
+    color:#495057;
+}
+
+.botones{
+    position: absolute;
+    top: 680px;
+    height: 120px;
+    padding-left: 10%;
+    padding-top: 15px;
+}
+
+.encriptar{
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0A3871;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.encriptar:hover{
+    width: 240px;
+    height: 60px;
+    background-color: darkblue;
+    font-size: 18px;
+    box-shadow: 0px 24px 32px -8px #0A3871;
+}
+
+.desencriptar{
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0A3871;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    width: 240px;
+    height: 60px;
+    background-color: darkblue;
+    font-size: 18px;
+    box-shadow: 0px 24px 32px -8px #0A3871;
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 475px;
+    height: 970px;
+    right: 80px;
+    padding-right: 25px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 10px 10px 30px 2px #000000;
+}
+
+.munhequito{
+    position: absolute;
+    left: 50px;
+    top: 340px;
+}
+
+.paracontainer{
+    position: absolute;
+    box-sizing: border-box;
+    top: 670px;
+    left: 60px;
+}
+
+.paracontainer h3{
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+.paracontainer p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.copycontainer{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 800px;
+    padding-left: 80px;
+    background: #0A3871;
+    
+}    
+
+.butcopy{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+    position: relative;
+    top: 50px;
+    right: 4px;
+    cursor: pointer;
+}
+
+.butcopy:hover{
+    width: 340px;
+    height: 70px;
+    font-size: 22px;
+    box-shadow: 0px 24px 32px -8px #7a8fa9;
+}
+.contresult{
+    position: absolute;
+    bottom: 400px;
+    width: 300px;
+    height: 350px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 18px;
+}
+
+.contresult p{
+    color: #000000;
+    font-size: 20px;
+}
+
+.ocultar{
+    display: none;
+}
